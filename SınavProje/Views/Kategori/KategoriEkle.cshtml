@@ -1,0 +1,18 @@
+﻿@model SınavProje.Models.KategoriTbl;
+@{
+    ViewData["Title"] = "KategoriEkle";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<br />
+<form class="form-group" method="post">
+    <b>Kategori Adı</b>
+    @Html.TextBoxFor(x=>x.KategoriAdi, new { @class = "form-control" })
+    <br />
+    <button class="btn btn-info">Ekle</button>
+
+
+
+
+</form>
+
